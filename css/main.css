@@ -13,11 +13,11 @@ body {
 }
 
 .late {
-  background-color: lightpink !important;
+  background-color: lightpink;
 }
 
 .completed {
-  background-color: lightgreen !important;
+  background-color: lightgreen;
 }
 
 .task > img {
