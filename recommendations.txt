@@ -8,7 +8,7 @@
 1) The user can't specify new task title, description or image.
 2) No way to filter tasks
 3) Checkbox control doesn't have too much sense to indicate something is completed. When clicking it nothing happens.
-4) There is no possible to delete any task or reorder.
+4) There is not possible to delete any task or reorder.
 
 ## Css review:
 There are no big issues in the provided css but several things can be improved.
