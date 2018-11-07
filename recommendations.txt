@@ -10,6 +10,7 @@
 3) Checkbox control doesn't have too much sense to indicate something is completed. When clicking it nothing happens.
 4) There is not possible to delete any task or reorder.
 5) Huge image being loaded and then resized to 160px width by css. Having a thumbnail version of that image would be great to show in there.
+6) Consider a proper way of dealing with long descriptions. (Using some kind of expandable wrapper could be a good choice).
 
 ## Css review:
 There are no big issues in the provided css but several things can be improved.
