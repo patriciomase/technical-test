@@ -26,3 +26,4 @@ There are no big issues in the provided css but several things can be improved.
 4) Concatenation mixed with interpolation in app.js looks at least confusing and not clear at all.
 5) Global taskList variable is mutated in addTask function. It is accessible by scope but probably not the best practice.
 6) There's data missing when creating a new task, several `undefined` are shown actually on the presentation.
+7) Having Date objects mixed in what seems to be a json file got from a service is weird. It would be better to have a string in there and convert to date later on the application flow.
