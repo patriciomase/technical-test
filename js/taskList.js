@@ -7,14 +7,14 @@ var taskList = [
         description:"This is a description of the task. Its important to make sure the task manager is able to deal with really long descriptions. Even if its a list of W's back to back.",
         createdOn: today,
         createdBy: "Jane Smith",
-        dueDate: new Date("01/01/2020") /// Has enough time to finish
+        dueDate: "01/01/2020" /// Has enough time to finish
     },
     {
         title: "Task Title",
         description: "This is a description of the task. Its important to make sure the task manager is able to deal with really long descriptions. Even if its a list of W's back to back.",
         createdOn: today,
         createdBy: "Jane Smith",
-        dueDate: new Date("01/01/2018") /// <== Past due.
+        dueDate: "01/01/2018" /// <== Past due.
     },
     {
         title: "Task Title",
@@ -22,7 +22,7 @@ var taskList = [
         description: "This is a description of the task. Its important to make sure the task manager is able to deal with really long descriptions. Even if its a list of W's back to back.",
         createdOn: today,
         createdBy: "Jane Smith",
-        dueDate: new Date("01/01/2020"),
+        dueDate: "01/01/2020",
         completed: true
     },
     {
@@ -30,27 +30,27 @@ var taskList = [
         description:"This is a description of the task. Its important to make sure the task manager is able to deal with really long descriptions. Even if its a list of W's back to back.",
         createdOn: today,
         createdBy: "Jane Smith",
-        dueDate: new Date("01/01/2020"),
+        dueDate: "01/01/2020",
     },
     {
         title: "Task Title",
         description: "This is a description of the task. Its important to make sure the task manager is able to deal with really long descriptions. Even if its a list of W's back to back.",
         createdOn: today,
         createdBy: "Jane Smith",
-        dueDate: new Date("01/01/2018")
+        dueDate: "01/01/2018"
     },
     {
         title: "Task Title",
         description: "This is a description of the task. Its important to make sure the task manager is able to deal with really long descriptions. Even if its a list of W's back to back.",
         createdOn: today,
         createdBy: "Jane Smith",
-        dueDate: new Date("01/01/2018")
+        dueDate: "01/01/2018"
     },
     {
         title: "Task Title",
         description:"This is a description of the task. Its important to make sure the task manager is able to deal with really long descriptions. Even if its a list of W's back to back.",
         createdOn: today,
         createdBy: "Jane Smith",
-        dueDate: new Date("01/01/2020")
+        dueDate: "01/01/2020"
     }
 ];
