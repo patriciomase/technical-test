@@ -4,7 +4,7 @@ body {
   background-color: whitesmoke;
 }
 
-.taskCard {
+.task {
   background-color: white;
   padding: 10px;
   margin-top: 15px;
@@ -12,14 +12,14 @@ body {
   box-shadow: gray 2px 2px;
 }
 
-.taskLate {
+.late {
   background-color: lightpink !important;
 }
 
-.taskCompleted {
+.completed {
   background-color: lightgreen !important;
 }
 
-.taskCard > img {
+.task > img {
   width: 160px;
 }
