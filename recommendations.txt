@@ -1,0 +1,26 @@
+# Recommendations:
+
+## Project setup in general:
+1) Project could be forked from some github repo avoiding extra step of downloading the zip file just to drop the files in an empty repo.
+2) There's no quick or intuitive way of running the app. (Apart from just open the html file with chrome directly). Having a basic server would be good.
+
+## UX
+1) The user can't specify new task title, description or image.
+2) No way to filter tasks
+3) Checkbox control doesn't have too much sense to indicate something is completed. When clicking it nothing happens.
+4) There is no possible to delete any task or reorder.
+
+## Css review:
+There are no big issues in the provided css but several things can be improved.
+1) Using !important when there's no reason for.
+2) Class names could be more declarative.
+3) Small indentation and space issues.
+4) Not really an issue with the css but design could be improved.
+
+## Js review:
+1) Uses `let` in several parts of the application without transpilation. Let doesn't have full support in modern browsers yet, or at least is risky.
+2) Declaring a global variable for the task list in one file and passing it as param in a different file is confusing.
+3) Several indentation issues mostly in the json file which provides the data. (taskList.js).
+4) Concatenation mixed with interpolation in app.js looks at least confusing and not clear at all.
+5) Global taskList variable is mutated in addTask function. It is accessible by scope but probably not the best practice.
+6) There's data missing when creating a new task, several `undefined` are shown actually on the presentation.
